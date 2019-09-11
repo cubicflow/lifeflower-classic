@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="145px" height="47px" viewBox="0 0 145 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>logo--web</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Shop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-7-Plus" transform="translate(-134.000000, -82.000000)">
+            <g id="masthead" transform="translate(134.000000, 82.000000)">
+                <g id="logo--web">
+                    <g>
+                        <g>
+                            <g id="Group-3" transform="translate(19.844891, 8.616667)" stroke="#000000" stroke-width="4" stroke-linecap="round">
+                                <path d="M0,14.7372881 L28.5766423,14.7372881" id="Path-2"></path>
+                                <polyline id="Path-2" points="2.38138686 7.31111111 14.289629 10.4444444 26.1952555 7.31111111"></polyline>
+                                <polyline id="Path-2" points="7.67335766 1.82777778 14.2883212 5.22222222 20.9032847 1.82777778"></polyline>
+                                <path d="M14.2020708,-6.03961325e-14 L14.2020708,29.7666667" id="Path-3"></path>
+                            </g>
+                            <g id="Group-5" transform="translate(98.959854, 8.616667)" stroke-linecap="round" stroke-width="4" stroke="#000000">
+                                <polyline id="Path-2" points="0 7.31111111 11.9082421 10.4444444 23.8138686 7.31111111"></polyline>
+                                <path d="M11.9931847,-1.20792265e-13 L11.9931847,20.1055556" id="Path-3"></path>
+                                <polyline id="Path-2" points="1.3229927 29.7666667 11.9069343 19.8444444 22.4908759 29.7666667"></polyline>
+                            </g>
+                            <g id="Group-4" transform="translate(61.651460, 9.138889)" stroke="#000000" stroke-width="4" stroke-linecap="round">
+                                <path d="M0.279056295,0 C0.279056295,0 -1.93808452,9.84397044 10.8629979,14.3611111 C23.6640803,18.8782518 21.4469395,28.7222222 21.4469395,28.7222222" id="Path-4" transform="translate(10.862998, 14.361111) scale(-1, 1) translate(-10.862998, -14.361111) "></path>
+                                <path d="M0.279056295,0 C0.279056295,0 -1.93808452,9.84397044 10.8629979,14.3611111 C23.6640803,18.8782518 21.4469395,28.7222222 21.4469395,28.7222222" id="Path-4"></path>
+                            </g>
+                            <path d="M1.98448905,47 L0,47 L0,0 L1.98448905,0 L11.9069343,0 L11.9069343,3.91666667 L3.9689781,3.91666667 L3.9689781,43.0833333 L11.9069343,43.0833333 L11.9069343,47 L1.98448905,47 Z" id="Combined-Shape" fill="#000000"></path>
+                            <path d="M135.077555,47 L133.093066,47 L133.093066,0 L135.077555,0 L145,0 L145,3.91666667 L137.062044,3.91666667 L137.062044,43.0833333 L145,43.0833333 L145,47 L135.077555,47 Z" id="Combined-Shape" fill="#000000" transform="translate(139.046533, 23.500000) scale(-1, 1) translate(-139.046533, -23.500000) "></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

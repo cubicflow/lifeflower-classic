@@ -1,0 +1,12 @@
+online_ordering_enabled: true
+social_media:
+  facebook_url:
+  instagram_url:
+location:
+  phone_number:
+  fax:
+  address_line_1:
+  address_line_2:
+  email: info@lifeflowercare.com
+send_contact_to: info@lifeflowercare.com
+ordering_disabled_notice: Online ordering is currently disabled

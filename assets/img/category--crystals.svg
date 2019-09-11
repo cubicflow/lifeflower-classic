@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="117px" viewBox="0 0 120 117" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>category--crystals</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="category--crystals">
+            <g>
+                <rect id="Rectangle-2" x="0" y="0" width="120" height="180"></rect>
+                <g transform="translate(30.000000, 36.000000)">
+                    <polygon id="Path-9" fill-opacity="0.4" fill="#EAF2E9" fill-rule="evenodd" points="3 22 4 5 15 11 32 48 24 58 15 52"></polygon>
+                    <polygon id="Path-19" fill-opacity="0.4" fill="#EAF2E9" fill-rule="evenodd" points="39 47 34 29 47 4 55 1 58 8 49 38"></polygon>
+                    <polygon id="Path-9" stroke="#A4BA92" stroke-width="1" fill-rule="nonzero" points="3 22 4 5 15 11 32 48 24 58 15 52"></polygon>
+                    <polyline id="Path-15" stroke="#A4BA92" stroke-width="1" fill-rule="nonzero" points="3 22 13 24 15 18 15 11"></polyline>
+                    <polyline id="Path-16" stroke="#A4BA92" stroke-width="1" fill-rule="nonzero" points="4 5 13 24 21 49 15 52"></polyline>
+                    <polyline id="Path-17" stroke="#A4BA92" stroke-width="1" fill-rule="nonzero" points="24 58 21 49 25 37 32 48"></polyline>
+                    <polyline id="Path-18" stroke="#A4BA92" stroke-width="1" fill-rule="nonzero" points="25 37 15 18 4 5"></polyline>
+                    <polygon id="Path-19" stroke="#A4BA92" stroke-width="1" fill-rule="nonzero" points="39 47 34 29 47 4 55 1 58 8 49 38"></polygon>
+                    <polyline id="Path-20" stroke="#A4BA92" stroke-width="1" fill-rule="nonzero" points="34 29 40 35 48 29 49 38"></polyline>
+                    <polyline id="Path-21" stroke="#A4BA92" stroke-width="1" fill-rule="nonzero" points="39 47 40 35 49 11 47 4"></polyline>
+                    <polyline id="Path-22" stroke="#A4BA92" stroke-width="1" fill-rule="nonzero" points="48 29 53 13 58 8"></polyline>
+                    <path d="M53,13 L49,11" id="Path-23" stroke="#A4BA92" stroke-width="1" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

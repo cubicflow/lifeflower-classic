@@ -1,0 +1,20 @@
+<div class="shop-bundles">
+  <div class="shop-bundles__grid">
+  {% assign bundles = site.bundles | sort: 'display_order' %}
+  {% for bundle in bundles %}
+  {% if bundle.hidden == false %}
+  {% if bundle.featured_bundle == true %}
+
+        <a href="{{bundle.url}}" class="bundle">
+          <img class="cf-responsive" src="{{bundle.image-url}}">
+
+          <div class="bundle__label">{{bundle.name}}</div>
+        </a>
+
+
+  {% endif %}
+  {% endif %}
+  {% endfor %}
+  </div>
+
+</div>

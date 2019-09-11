@@ -1,0 +1,107 @@
+---
+layout: default
+---
+
+<main>
+
+  <section class="product-detail">
+
+    <div class="container">
+        <h1>{{page.name}}</h1>
+        
+        <div class="product-detail__price product-detail__price--bundle">
+            ${{page.price}}
+        </div>
+    </div>
+
+    <div class="product-detail__image product-detail__image--bundle">
+      <img class="cf-responsive" src="{{page.image-large-url}}">
+    </div>
+
+    {% if page.orderable == true %}
+    <a class="button__buy button__buy--item-page snipcart-add-item"
+    data-item-id="{{page.name | slugify}}"
+    data-item-name="{{page.name}}"
+    data-item-price="{{page.price}}"
+    data-item-price-wholesale="{{page.price_wholesale}}"
+    data-item-url="{{page.url}}"
+    data-item-weight="{{page.weight}}"
+    data-item-description="{{page.description}}"
+    data-item-shipable="true"
+    data-item-stackable="{{page.stackable}}"
+    {% for custom_field in page.custom_fields %}
+      data-item-custom{{forloop.index}}-name="{{custom_field.name}}"
+      {% if custom_field.options %} data-item-custom{{forloop.index}}-options="{{custom_field.options}}" {% endif %}
+      data-item-custom{{forloop.index}}-required="{{custom_field.required}}"
+    {% endfor %}
+    >
+    Add to Cart
+    </a>
+    {% else %}
+    <div class="a button__buy button__buy--item-page">Temporarily Out of Stock</div>
+    {% endif %}
+
+    {% if page.orderable == true %}
+    <p class="product-detail__process-time container-description">Processed and shipped in 14 business&nbsp;days. Please allow additional time for&nbsp;delivery.</p>
+    {% else %}
+    <p class="product-detail__process-time container-description text-alert">{{page.out_of_stock_message}}</p>
+    {% endif %}
+
+    <!-- <p class="product-detail__process-time product-detail__process-time__special">Orders placed after Tuesday, August&nbsp;7th will ship when we return from our annual family vacation, Friday, August&nbsp;20th. Thank you for supporting handcrafted, family-owned business, it&nbsp;is truly&nbsp;appreciated.</p> -->
+
+    <div class="product-detail__description">
+      <p>{{page.long_description}}</p>
+
+      {% if page.ingredients == "blank" %}
+      {% else %}
+      <div class="product-detail__notes">
+        <span>Ingredients</span>
+        <p>{{page.ingredients}}</p>
+      </div>
+      {% endif %}
+
+      {% if page.size == "blank" %}
+      {% else %}
+      <div class="product-detail__notes">
+        <span>Product Size</span>
+        <p>{{page.size}}</p>
+      </div>
+      {% endif %}
+
+      {% if page.strength == "blank" %}
+      {% else %}
+      <div class="product-detail__notes">
+        <span>Strength</span>
+        <p>{{page.strength}} Pure Hemp-Derived CBD</p>
+      </div>
+      {% endif %}
+
+      {% if page.history == "blank" %}
+      {% else %}
+      <div class="product-detail__notes">
+        <span>History</span>
+        <p>{{page.history}}</p>
+      </div>
+      {% endif %}
+
+      {% if page.healing-properties == "blank" %}
+      {% else %}
+      <div class="product-detail__notes">
+        <span>Properties</span>
+        <p>{{page.healing-properties}}</p>
+      </div>
+      {% endif %}
+
+      {% if page.product-notes == "blank" %}
+      {% else %}
+      <div class="product-detail__notes">
+        <span>Notes</span>
+        <p>{{page.product-notes}}</p>
+      </div>
+      {% endif %}
+
+    </div>
+
+  </section>
+
+</main>
