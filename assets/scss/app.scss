@@ -68,6 +68,8 @@
 //
 // 6. Base
 // --------------------------------------------------
+@import 'base/config';
+@import 'base/global';
 @import 'base/headings';
 @import 'base/links';
 
@@ -78,10 +80,19 @@
 @import 'layouts/l-index';
 @import 'layouts/l-page';
 @import 'layouts/l-post';
+@import 'layouts/l-shop';
+@import 'layouts/l-page-aux';
+
 
 //
 // 8. Modules
 // --------------------------------------------------
+@import 'modules/nav';
+@import 'modules/footer';
+@import 'modules/shop-categories';
+@import 'modules/shop-bundles';
+@import 'modules/cta-skinny';
+@import 'modules/banner-alert';
 @import 'modules/m-code-highlighting';
 
 //
@@ -93,3 +104,8 @@
 // 10. Theme
 // --------------------------------------------------
 @import 'themes/theme';
+
+//
+// 11. Utilities
+// --------------------------------------------------
+@import 'utilities/text-utilities';

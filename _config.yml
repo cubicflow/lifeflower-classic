@@ -1,17 +1,56 @@
 # Site settings
+url:                    "lifeflowercare.com"
 language:               ""
-title:                  "Site Title"
-description:            "Site description"
+title:                  "Life Flower &ndash; Organic Hemp-Derived CBD Products"
+description:            "Small batch Hemp-Derived CBD, CBD Isolate, and Full-Spectrum CBD Oil products made from natural, ethically sourced ingredients with therapeutic grade essential oils and absolutely no artificial fragrances, chemicals, or preservatives."
 google-verification:    ""
+instagram-url:          "http://www.instagram.com/lifeflowercare"
 
 # Handling Reading
 include:
   - ".htaccess"
   - "_pages"
 
+collections:
+  products:
+    output: true
+    permalink: /shop/:title/
+  product-categories:
+    output: true
+    permalink: /shop/category/:title/
+  bundles:
+    output: true
+    permalink: /shop/bundles/:title/
+
+# FrontMatter defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: product-categories
+    values:
+      layout: products
+      is_product_category: true
+      _hide_content: true
+  -
+    scope:
+      path: ""
+      type: products
+    values:
+      layout: product
+      is_product: true
+      _hide_content: true
+  -
+    scope:
+      path: ""
+      type: bundles
+    values:
+      layout: bundle
+      is_product_category: true
+      _hide_content: true
+
 exclude:
   - ".DS_Store"
-  - "/assets/"
   - "bower.json"
   - "composer.json"
   - "composer.lock"
@@ -31,6 +70,7 @@ exclude:
   - "yarn-error.log"
 
 # Plugins
+gems:             ["jekyll-sitemap", "jekyll-paginate"]
 # Add plugins in the Gemfile
 
 # Conversion
@@ -41,7 +81,7 @@ incremental:      true
 # baseurl:        "" # does not include hostname
 
 # Outputting
-permalink:        "/blog/:year/:title/"
+permalink:        pretty
 paginate_path:    "/blog/page:num"
 paginate:         5
 

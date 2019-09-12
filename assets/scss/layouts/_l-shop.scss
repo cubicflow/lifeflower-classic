@@ -1,0 +1,248 @@
+// --------------------------------------------------
+// Shop
+// --------------------------------------------------
+
+main {
+  @include grid-row;
+
+  //other elements
+  //@include grid-column;
+}
+
+.products {
+
+  margin-top: 80px;
+
+  @include breakpoint(medium) {
+    margin-top: 120px;
+  }
+
+  @include breakpoint(large) {
+    margin-top: 140px;
+  }
+}
+
+.product {
+
+  width: 100%;
+  text-align: center;
+  margin-bottom: 136px;
+  margin-top: 0px;
+  position: relative;
+  opacity: 0.0;
+
+  &__appear {
+    opacity: 1.0;
+    transition: 0.7s all;
+  }
+
+  @include breakpoint(medium){
+    float: left;
+    width: 50%;
+  }
+
+  @include breakpoint(large){
+    width: 33%;
+  }
+
+  &__new-product {
+    float: right;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-image: linear-gradient(-135deg, lighten($pink, 0) 0%, lighten($orange, 7) 100%);
+    color: $gray--dark;
+    font-family: 'TchigMono-Regular';
+    font-size: 15px;
+    text-align: center;
+    padding: 15px 5px;
+  }
+
+  &__new-spacer {
+    float: right;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    color: $gray--dark;
+    font-family: 'TchigMono-Regular';
+    font-size: 15px;
+    text-align: center;
+    padding: 15px 5px;
+  }
+
+
+  &__container {
+    position: relative;
+    margin: 0px auto;
+    max-width: 280px;
+    height: 100%;
+  }
+
+  &__content {
+    position: relative;
+    top: 100%;
+    transform: translateY(-100%);
+  }
+
+  &__title {
+
+    margin-top: 18px;
+    color: $gray--dark;
+    font-size: 15px;
+    font-family: 'TchigMono-Bold';
+
+  }
+
+  &__description {
+
+    margin-top: 10px;
+    margin-bottom: 36px;
+    font-size: 14px;
+    color: $text-light;
+
+  }
+
+  &__price {
+
+    margin-top: 10px;
+    margin-bottom: 36px;
+    font-size: 14px;
+    color: darken($grass, 10);
+    font-family: 'TchigMono-Bold';
+
+  }
+
+  &__weight {
+    margin-bottom: 10px;
+    color: $gray;
+  }
+
+}
+
+// --------------------------------------------------
+// Product Page
+// --------------------------------------------------
+
+.product-detail {
+
+  h1 {
+    text-align: center;
+    margin-bottom: 0.2em;
+  }
+
+  &__price {
+    text-align: center;
+    color: $grass--dark;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 0.5em;
+
+    @include breakpoint(medium) {
+      font-size: 24px;
+    }
+
+    &--bundle {
+      color: $black;
+    }
+  }
+
+  &__process-time {
+    text-align: center;
+    color: $black;
+    margin-top: 24px;
+
+    &__special {
+      font-size: 12px;
+      margin-top: 16px;
+      font-weight: 500;
+      color: $gray;
+      width: 85%;
+      margin: 0px auto;
+      
+      @include breakpoint(medium) {
+        width: 50%;
+      }
+    }
+  }
+
+  &__strength {
+      text-align: center;
+      font-weight: 500;
+  }
+
+  &__image {
+    max-width: 420px;
+    margin: 0px auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    @include breakpoint(medium) {
+      margin-top: 80px;
+      margin-bottom: 80px;
+    }
+
+    &--bundle {
+      max-width: 1024px;
+      margin-top: 60px;
+      margin-bottom: 60px;
+    }
+  }
+
+  &__description {
+    background-color: $white;
+    color: $black;
+    font-size: 16px;
+    padding: 30px;
+    max-width: 940px;
+    margin: 0px auto;
+    line-height: 1.75em;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+    @include breakpoint(medium) {
+      font-size: 18px;
+      padding: 40px;
+      margin-top: 80px;
+      margin-bottom: 80px;
+    }
+
+    @include breakpoint(large) {
+      font-size: 20px;
+      padding: 60px;
+      margin-top: 100px;
+      margin-bottom: 100px;
+    }
+
+    p {
+      line-height: 1.75em;
+    }
+  }
+
+  &__notes {
+    color: $gray;
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 1.75em;
+
+    @include breakpoint(medium) {
+      margin-top: 40px;
+      font-size: 15px;
+    }
+
+    @include breakpoint(large) {
+      margin-top: 60px;
+      font-size: 16px;
+    }
+
+    span {
+      color: $black;
+    }
+
+    p {
+      line-height: 1.75em;
+    }
+  }
+
+}

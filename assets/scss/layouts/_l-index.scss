@@ -2,9 +2,43 @@
 // Layout index page
 // --------------------------------------------------
 
-main {
-  @include grid-row;
+.cover-home {
+  padding-bottom: 10px;
+  
+  h1 {
 
-  //other elements
-  //@include grid-column;
+  }
+
+  &__description {
+    background-color: $gray--xxlight;
+    color: $black;
+    font-size: 13px;
+    padding: 30px;
+    max-width: 940px;
+    margin: 0px auto;
+    line-height: 1.75em;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    text-align: center;
+    width: 80%;
+
+    @include breakpoint(medium) {
+      font-size: 15px;
+      padding: 40px;
+      margin-top: 60px;
+      margin-bottom: 100px;
+    }
+
+    @include breakpoint(large) {
+      font-size: 17px;
+      padding: 60px;
+      margin-top: 100px;
+      margin-bottom: 140px;
+    }
+
+    p {
+      line-height: 1.75em;
+    }
+  }
+
 }

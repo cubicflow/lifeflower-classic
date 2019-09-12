@@ -1,0 +1,40 @@
+// --------------------------------------------------
+// Auxiliary page
+// --------------------------------------------------
+
+.retail-location {
+
+    &__products {
+        font-weight: 500;
+        font-size: 13px;
+        color: $grass--dark;
+    }
+}
+
+.disclaimer {
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 10px;
+
+  @include breakpoint(medium){
+    margin-bottom: 15px;
+  }
+
+  &__body {
+    text-align: center;
+    font-size: 14px;
+    color: $text-default;
+    position: relative;
+    width: 90%;
+    max-width: 960px;
+    margin: 0px auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+    @include breakpoint(medium){
+      width: 80%;
+      margin-top: 80px;
+      margin-bottom: 80px;
+    }
+  }
+}

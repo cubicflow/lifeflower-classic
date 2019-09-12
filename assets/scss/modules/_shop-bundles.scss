@@ -1,0 +1,68 @@
+// --------------------------------------------------
+// Shop Bundles
+// --------------------------------------------------
+
+.bundles {
+  position: relative;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0px auto;
+
+  @include breakpoint(medium){
+    width: 100%;
+  }
+}
+
+.shop-bundles {
+
+  &__grid {
+    @include grid-row();
+    max-width: none;
+    overflow: hidden;
+  }
+}
+
+.bundle {
+
+  @include grid-column(12, 0);
+  display: block;
+  height: auto;
+  position: relative;
+  margin-bottom: 6px;
+
+  @include breakpoint(medium) {
+    margin-bottom: 4px;
+  }
+
+  @include breakpoint(large) {
+    @include grid-column(6, 4);
+  }
+
+  &__image {
+    width: auto;
+    height: auto;
+  }
+
+  &__label {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    padding-top: 8px;
+    height: 17%;
+    color: $gray--dark;
+    font-family: 'TchigMono-Bold';
+    text-align: center;
+    font-size: 14px;
+
+    @include breakpoint(medium) {
+      height: 16%;
+      font-size: 16px;
+    }
+
+    @include breakpoint(large) {
+      height: 15%;
+    }
+  }
+
+}

@@ -1,0 +1,319 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3405708, 2017-06-13T00:03:05-0400
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: TchigMono-Medium by Schizotype
+ * URL: https://www.myfonts.com/fonts/schizotype/tchig-mono/medium/
+ *
+ * Webfont: TchigMono-Bold by Schizotype
+ * URL: https://www.myfonts.com/fonts/schizotype/tchig-mono/bold/
+ *
+ * Webfont: TchigMono-Regular by Schizotype
+ * URL: https://www.myfonts.com/fonts/schizotype/tchig-mono/regular/
+ *
+ *
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3405708
+ * Licensed pageviews: 10,000
+ * Webfonts copyright: Copyright (c) 2017 by Schizotype. All rights reserved.
+ *
+ * © 2017 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/342f9c");
+
+
+@font-face {font-family: 'TchigMono-Medium';src: url('../fonts/342F9C_0_0.eot');src: url('../fonts/342F9C_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/342F9C_0_0.woff2') format('woff2'),url('../fonts/342F9C_0_0.woff') format('woff'),url('../fonts/342F9C_0_0.ttf') format('truetype'),url('../fonts/342F9C_0_0.svg#wf') format('svg');}
+
+
+@font-face {font-family: 'TchigMono-Bold';src: url('../fonts/342F9C_1_0.eot');src: url('../fonts/342F9C_1_0.eot?#iefix') format('embedded-opentype'),url('../fonts/342F9C_1_0.woff2') format('woff2'),url('../fonts/342F9C_1_0.woff') format('woff'),url('../fonts/342F9C_1_0.ttf') format('truetype'),url('../fonts/342F9C_1_0.svg#wf') format('svg');}
+
+
+@font-face {font-family: 'TchigMono-Regular';src: url('../fonts/342F9C_2_0.eot');src: url('../fonts/342F9C_2_0.eot?#iefix') format('embedded-opentype'),url('../fonts/342F9C_2_0.woff2') format('woff2'),url('../fonts/342F9C_2_0.woff') format('woff'),url('../fonts/342F9C_2_0.ttf') format('truetype'),url('../fonts/342F9C_2_0.svg#wf') format('svg');}
+
+h1 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  color: $black;
+  font-size: 32px;
+  line-height: 1.5em;
+  margin-top: 1.33em;
+  margin-bottom: 0.75em;
+
+  @include breakpoint(medium) {
+    font-size: 40px;
+  }
+
+  @include breakpoint(large) {
+    font-size: 48px;
+  }
+}
+
+
+body {
+  background-color: $bg-default;
+  color: $text-default;
+  font-family: 'Work Sans', sans-serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.body-container {
+    background-color: $bg-default;
+    margin: 0px auto;
+    width: 100%;
+
+  @keyframes color-shift {
+    0%   {background-color: $green;}
+    10%   {background-color: $green;}
+    20%  {background-color: $tan;}
+    40%  {background-color: $pink;}
+    60%   {background-color: $blue;}
+    80%   {background-color: $orange;}
+    100%   {background-color: $green;}
+  }
+
+  &__cover {
+    background-color: $green;
+    height: 100%;
+    min-height: 100%;
+    animation-name: color-shift;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+  }
+}
+
+.container {
+    margin: 0px auto;
+    width: 90%; 
+}
+
+.container-description {
+  margin: 0px auto;
+  max-width: 720px;
+}
+
+.body-spacer {
+  height: 56px;
+  width: 100%;
+  margin: 0px auto;
+}
+
+a {
+  color: $grass--dark;
+  cursor: pointer;
+
+  &:hover{
+    color: $grass;
+  }
+}
+
+.styleset02 {
+  -moz-font-feature-settings:"ss02=1";
+  -moz-font-feature-settings:"ss02";
+  -ms-font-feature-settings:"ss02";
+  -webkit-font-feature-settings:"ss02";
+  font-feature-settings:"ss02";
+}
+
+.styleset03 {
+  -moz-font-feature-settings:"ss03=1";
+  -moz-font-feature-settings:"ss03";
+  -ms-font-feature-settings:"ss03";
+  -webkit-font-feature-settings:"ss03";
+  font-feature-settings:"ss03";
+}
+
+
+
+main, header, footer {
+
+  position: relative;
+  width: 94%;
+  max-width: 1280px;
+  margin: 0px auto;
+
+  @include breakpoint(medium){
+    width: 96%;
+  }
+}
+
+main {
+
+}
+
+header {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'TchigMono-Medium';
+
+  @include breakpoint(medium){
+    margin-top: 18px;
+    margin-bottom: 18px;
+  }
+}
+
+.header-bar {
+  width: 100%;
+  height: 56px;
+
+  .cart {
+    font-size: 16px;
+    color: $black;
+    float: right;
+    position: relative;
+
+    img {
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+
+    &__ammount {
+      display: block;
+      margin-right: 46px;
+      margin-top: 7px;
+    }
+  }
+
+  &:before {
+
+    content: "";
+    display: block;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background-image: url("/assets/img/icon--flower.svg");
+    background-size: 36px 36px;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 0px;
+    left: 0px;
+
+  }
+}
+
+.home {
+  text-align: center;
+
+  &__body {
+    background-image: linear-gradient(-135deg, #F1D9D5 0%, #E4C6CD 100%);
+  }
+
+}
+
+
+
+.masthead {
+  margin-top: 55px;
+  text-align: center;
+
+  @include breakpoint(large){
+    margin-top: 95px;
+  }
+
+  h1 {
+      font-family: 'TchigMono-Bold';
+      color: $black;
+      font-size: 16px;
+      margin-top: 14px;
+  }
+}
+
+
+.instagram {
+
+  text-align: center;
+  margin-top: 48px;
+
+  a {
+    display: block;
+    max-width: 280px;
+    text-align: center;
+    color: $instagram-default;
+    font-size: 14px;
+    transition: all 0.3s;
+    margin: 0px auto;
+
+    &:hover {
+      color: darken($instagram-default, 20);
+    }
+  }
+
+  span {
+    display: block;
+    margin-top: 10px;
+  }
+
+}
+
+/* BUTTONS */
+
+.button {
+
+  &__buy {
+    display: block;
+    height: 36px;
+    font-size: 15px;
+    color: $black;
+    background-color: $white;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    border-radius: 2px;
+    max-width: 140px;
+    margin: 0px auto;
+    margin-bottom: 10px;
+    padding: 7px;
+    transition: all 0.3s;
+    line-height: 1.5em;
+
+    &:hover {
+      color: $white;
+      background-color: $black;
+    }
+
+    &--item-page {
+      color: $white;
+      background-color: $black;
+      max-width: 220px;
+
+      &:hover {
+        color: $black;
+        background-color: $white;
+      }
+    }
+  }
+
+  &__shop-details {
+    display: block;
+    height: 36px;
+    font-size: 15px;
+    color: $gray;
+    background-color: $white;
+    font-family: 'Work Sans', sans-serif;
+    border-radius: 2px;
+    max-width: 140px;
+    margin: 0px auto;
+    padding: 7px;
+    transition: all 0.3s;
+
+    @include breakpoint(medium) {
+      background-color: $bg-default;
+    }
+
+    &:hover {
+
+      color: $white;
+      background-color: $gray;
+    }
+  }
+}

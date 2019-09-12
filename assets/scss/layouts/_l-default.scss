@@ -1,21 +1,3 @@
 // --------------------------------------------------
 // Layout default
 // --------------------------------------------------
-
-header {
-  @include grid-row;
-  background-color: $light-gray;
-
-  nav {
-    @include grid-column;
-  }
-}
-
-footer {
-  @include grid-row;
-  background-color: $light-gray;
-
-  nav {
-    @include grid-column;
-  }
-}

@@ -1,0 +1,77 @@
+// --------------------------------------------------
+// Navigation
+// --------------------------------------------------
+
+.cta-skinny {
+  background-color: $white;
+  width: 100%;
+  height: 56px;
+  margin: 0px auto;
+  // margin-bottom: 6px;
+  padding: 0px 0px 0px 0px;
+  overflow: auto;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+  @include breakpoint(medium) {
+    // margin-bottom: 4px;
+  }
+
+  @keyframes color-shift-2 {
+    0%   {background-color: $pink;}
+    10%   {background-color: $pink;}
+    20%  {background-color: $tan;}
+    40%  {background-color: $green;}
+    60%   {background-color: $blue;}
+    80%   {background-color: $orange;}
+    100%   {background-color: $pink;}
+  }
+
+  &__content {
+    width: 100%;
+    height: 55px;
+    margin: 0px auto;
+    padding: 12px;
+    background-color: $green;
+    animation-name: color-shift-2;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    color: $gray--dark;
+    font-family: 'TchigMono-Bold';
+    font-size: 12px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+
+    &:hover {
+      color: $black;
+      text-decoration: underline;
+    }
+
+    @include breakpoint(medium) {
+      height: 26px;
+      border-radius: 13px;
+      margin-top: 16px;
+      width: fit-content;
+      padding: 6px;
+    }
+
+    &__text {
+      margin-left: 10px;
+      margin-top: 2px;
+    }
+
+    &__arrow {
+      position: absolute;
+      top: 9px;
+      right: 14px;
+
+      @include breakpoint(medium) { 
+        position: relative;
+        top: 0px;
+        right: 0px;
+      }      
+    }
+  }
+}

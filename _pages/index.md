@@ -15,8 +15,6 @@ title: Welcome
   </div>
 
   <div class="cover-home__description">
-
-    <h1 class="h1 test-test">TEST</h1>
     
     <p>Life&nbsp;Flower is a family owned and operated business located in Orange County, California. We handcraft all of our products in small batches from natural, ethically sourced ingredients with therapeutic grade essential oils and absolutely no artificial fragrances, chemicals, or&nbsp;preservatives.</p>
 
