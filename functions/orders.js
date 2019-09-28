@@ -1,10 +1,8 @@
 
-const fetch = require("node-fetch")
-
 exports.handler = async function(event, context, callback) {
 
   return {
     statusCode: 200,
-    body: {hello: 'I love you'},
+    body: JSON.stringify({hello: 'I love you'}),
   }
 }
