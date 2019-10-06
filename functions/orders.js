@@ -1,4 +1,9 @@
 
+
+const SHIPSTATION_USERNAME = '';
+const SHIPSTATION_PASSWORD = '';
+const CREATE_ORDER_ENDPOINT = 'https://ssapi.shipstation.com/orders/createorder';
+
 exports.handler = async function(event, context, callback) {
 
   const data = await parseJson(event.body)
@@ -37,6 +42,10 @@ const parseJson = async function(jsonString){
     data = null;
   }
   return data;
+}
+
+const getOrderNumber = function() {
+  return Math.floor(Math.random() * 10000000000);
 }
 
 const transformDataForShipping = function(data){
