@@ -30,7 +30,7 @@ exports.handler = async function(event, context, callback) {
       return success(dataForShipping);
     }
 
-    return error('Shipstation request not OK');
+    return error({request, serverMessage: 'Shipstation request not OK'});
   };
 
   return error();
@@ -43,10 +43,10 @@ const success = function(body, status){
   }
 }
 
-const error = function(message, status){
+const error = function(body, status){
   return {
     statusCode: status || 400,
-    body: message || 'Unsupported request',
+    body: JSON.stringify(body) || 'Unsupported request',
   }
 }
 
