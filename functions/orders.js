@@ -1,7 +1,8 @@
+import fetch from 'node-fetch';
+import base64 from 'base-64';
 
-
-const SHIPSTATION_USERNAME = '';
-const SHIPSTATION_PASSWORD = '';
+const SHIPSTATION_KEY = '8741aa9334f2468c909d46af681bf7af';
+const SHIPSTATION_SECRET = 'f468e9144f424f2cb8a1c70abaffe8fe';
 const CREATE_ORDER_ENDPOINT = 'https://ssapi.shipstation.com/orders/createorder';
 
 exports.handler = async function(event, context, callback) {
@@ -13,8 +14,23 @@ exports.handler = async function(event, context, callback) {
   }
 
   if (data.eventName === 'order.completed') {
-    const dataForShipping = transformDataForShipping(data)
-    return success(dataForShipping);
+    const dataForShipping = transformDataForShipping(data);
+    const headers = new Headers();
+    headers.append('Content-Type', 'text/json');
+    headers.append('Authorization', 'Basic ' + base64.encode(SHIPSTATION_KEY + ":" + SHIPSTATION_SECRET));
+
+    const request = await fetch(CREATE_ORDER_ENDPOINT, {
+      method: 'POST',
+      headers: headers,
+      mode: 'cors',
+      body: JSON.stringify(dataForShipping),
+    });
+
+    if (request.ok) {
+      return success(dataForShipping);
+    }
+
+    return error('Shipstation request not OK');
   };
 
   return error();
