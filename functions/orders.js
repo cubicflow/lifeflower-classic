@@ -1,4 +1,4 @@
-import fetch from 'node-fetch';
+const fetch = require('node-fetch');
 
 const SHIPSTATION_KEY = '8741aa9334f2468c909d46af681bf7af';
 const SHIPSTATION_SECRET = 'f468e9144f424f2cb8a1c70abaffe8fe';
@@ -14,30 +14,28 @@ exports.handler = async function(event, context, callback) {
 
   if (data.eventName === 'order.completed') {
     const dataForShipping = transformDataForShipping(data);
-    const headers = getHeaders();
 
-    const request = await fetch(CREATE_ORDER_ENDPOINT, {
-      method: 'POST',
-      headers: headers,
-      mode: 'cors',
+    return fetch(CREATE_ORDER_ENDPOINT, {
+      method: 'post',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': 'Basic ' + Buffer.from(SHIPSTATION_KEY + ":" + SHIPSTATION_SECRET).toString('base64')
+      },
       body: JSON.stringify(dataForShipping),
+    }).then((res) => {
+
+      if (!res.ok) {
+        return error({res, serverMessage: 'Shipstation request not OK'});
+      }
+
+      return res.json()
+    }).then((json) => {
+      return success(json);
     });
 
-    if (request.ok) {
-      return success(dataForShipping);
-    }
-
-    return error({request, serverMessage: 'Shipstation request not OK'});
   };
 
   return error();
-}
-
-const getHeaders = function() {
-  const headers = new Headers();
-  headers.append('Content-Type', 'text/json');
-  headers.set('Authorization', 'Basic ' + Buffer.from(SHIPSTATION_KEY + ":" + SHIPSTATION_SECRET).toString('base64'));
-  return headers;
 }
 
 const success = function(body, status){
@@ -70,13 +68,13 @@ const getOrderNumber = function() {
 
 const generateAddressModel = function(data) {
   return {
-    ...snipcartAddress,
     name: data.name,
     company: data.company,
     street1: data.address1,
     street2: data.address2,
     city: data.city,
     state: data.province,
+    postalCode: data.postalCode,
     country: data.country,
     phone: data.phone,
   }
@@ -85,12 +83,22 @@ const generateAddressModel = function(data) {
 const transformDataForShipping = function(data){
   const transformedData = {
     ...data.content,
-    orderNumber: getOrderNumber(),
+    orderNumber: data.content.invoiceNumber,
     orderDate: data.createdOn,
     paymentDate: data.createdOn,
     orderStatus: 'awaiting_shipment',
     billTo: generateAddressModel(data.content.billingAddress),
     shipTo: generateAddressModel(data.content.shippingAddress),
+    requestedShippingService: data.content.shippingMethod,
+    items: data.content.items.map(item => {
+      return {
+        ...item,
+        weight: (item.weight) ? {
+          value: item.weight,
+          units: 'grams'
+        } : null
+      }
+    })
   }
   return transformedData;
 }
