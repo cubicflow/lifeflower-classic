@@ -5,7 +5,8 @@
   "license": "MIT",
   "main": "gulpfile.js",
   "dependencies": {
-    "motion-ui": "^1.2.3"
+    "motion-ui": "^1.2.3",
+    "node-fetch": "^2.6.0"
   },
   "devDependencies": {
     "@babel/core": "^7.4.4",
