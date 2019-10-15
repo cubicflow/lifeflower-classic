@@ -1,5 +1,4 @@
 import fetch from 'node-fetch';
-import base64 from 'base-64';
 
 const SHIPSTATION_KEY = '8741aa9334f2468c909d46af681bf7af';
 const SHIPSTATION_SECRET = 'f468e9144f424f2cb8a1c70abaffe8fe';
@@ -15,9 +14,7 @@ exports.handler = async function(event, context, callback) {
 
   if (data.eventName === 'order.completed') {
     const dataForShipping = transformDataForShipping(data);
-    const headers = new Headers();
-    headers.append('Content-Type', 'text/json');
-    headers.append('Authorization', 'Basic ' + base64.encode(SHIPSTATION_KEY + ":" + SHIPSTATION_SECRET));
+    const headers = getHeaders();
 
     const request = await fetch(CREATE_ORDER_ENDPOINT, {
       method: 'POST',
@@ -34,6 +31,13 @@ exports.handler = async function(event, context, callback) {
   };
 
   return error();
+}
+
+const getHeaders = function() {
+  const headers = new Headers();
+  headers.append('Content-Type', 'text/json');
+  headers.set('Authorization', 'Basic ' + Buffer.from(SHIPSTATION_KEY + ":" + SHIPSTATION_SECRET).toString('base64'));
+  return headers;
 }
 
 const success = function(body, status){
