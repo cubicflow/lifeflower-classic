@@ -48,7 +48,29 @@ const getOrderNumber = function() {
   return Math.floor(Math.random() * 10000000000);
 }
 
+const generateAddressModel = function(data) {
+  return {
+    ...snipcartAddress,
+    name: data.name,
+    company: data.company,
+    street1: data.address1,
+    street2: data.address2,
+    city: data.city,
+    state: data.province,
+    country: data.country,
+    phone: data.phone,
+  }
+}
+
 const transformDataForShipping = function(data){
-  // todo
-  return data;
+  const transformedData = {
+    ...data.content,
+    orderNumber: getOrderNumber(),
+    orderDate: data.createdOn,
+    paymentDate: data.createdOn,
+    orderStatus: 'awaiting_shipment',
+    billTo: generateAddressModel(data.content.billingAddress),
+    shipTo: generateAddressModel(data.content.shippingAddress),
+  }
+  return transformedData;
 }
