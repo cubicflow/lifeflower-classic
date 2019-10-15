@@ -13,29 +13,34 @@ exports.handler = async function(event, context, callback) {
   }
 
   if (data.eventName === 'order.completed') {
-    const dataForShipping = transformDataForShipping(data);
-
-    return fetch(CREATE_ORDER_ENDPOINT, {
-      method: 'post',
-      headers: {
-        'Content-Type': 'application/json',
-        'Authorization': 'Basic ' + Buffer.from(SHIPSTATION_KEY + ":" + SHIPSTATION_SECRET).toString('base64')
-      },
-      body: JSON.stringify(dataForShipping),
-    }).then((res) => {
-
-      if (!res.ok) {
-        return error({res, serverMessage: 'Shipstation request not OK'});
-      }
-
-      return res.json()
-    }).then((json) => {
-      return success(json);
-    });
-
+    return handleOrderCompleted(data);
   };
 
   return error();
+}
+
+const handleOrderCompleted = function(data) {
+  const dataForShipping = transformDataForShipping(data);
+
+  return fetch(CREATE_ORDER_ENDPOINT, {
+    method: 'post',
+    headers: {
+      'Content-Type': 'application/json',
+      'Authorization': 'Basic ' + Buffer.from(SHIPSTATION_KEY + ":" + SHIPSTATION_SECRET).toString('base64')
+    },
+    body: JSON.stringify(dataForShipping),
+  }).then((res) => {
+
+    if (!res.ok) {
+      return error({res, serverMessage: 'Shipstation request not OK'});
+    }
+
+    return res.json()
+  }).then((json) => {
+    return success(json);
+  }).catch((error) => {
+    return error({error, serverMessage: 'Shipstation request network error'});
+  });
 }
 
 const success = function(body, status){
@@ -84,6 +89,7 @@ const transformDataForShipping = function(data){
   const transformedData = {
     ...data.content,
     orderNumber: data.content.invoiceNumber,
+    orderKey: data.content.invoiceNumber,
     orderDate: data.createdOn,
     paymentDate: data.createdOn,
     orderStatus: 'awaiting_shipment',
