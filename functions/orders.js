@@ -82,7 +82,6 @@ const generateAddressModel = function(data) {
     postalCode: data.postalCode,
     country: data.country,
     phone: data.phone,
-    email: data.email,
   }
 }
 
