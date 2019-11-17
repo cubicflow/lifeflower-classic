@@ -96,6 +96,7 @@ const transformDataForShipping = function(data){
     billTo: generateAddressModel(data.content.billingAddress),
     shipTo: generateAddressModel(data.content.shippingAddress),
     requestedShippingService: data.content.shippingMethod,
+    email: data.content.user.email,
     items: data.content.items.map(item => {
       return {
         ...item,
