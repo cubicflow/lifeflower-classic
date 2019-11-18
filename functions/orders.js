@@ -82,7 +82,6 @@ const generateAddressModel = function(data) {
     postalCode: data.postalCode,
     country: data.country,
     phone: data.phone,
-    email: data.email
   }
 }
 
@@ -97,7 +96,7 @@ const transformDataForShipping = function(data){
     billTo: generateAddressModel(data.content.billingAddress),
     shipTo: generateAddressModel(data.content.shippingAddress),
     requestedShippingService: data.content.shippingMethod,
-    email: data.content.email,
+    customerEmail: data.content.email,
     items: data.content.items.map(item => {
       return {
         ...item,
