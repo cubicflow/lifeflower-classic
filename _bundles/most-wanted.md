@@ -10,7 +10,7 @@ image-url: "/assets/img/bundles/bundle-most-wanted.jpg"
 image-large-url: "/assets/img/bundles/large/bundle-most-wanted.jpg"
 price: 72
 price_wholesale: 72
-weight: 175
+weight: 875
 display_order: 1
 cell_layout:
 orderable: true
