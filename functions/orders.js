@@ -16,7 +16,7 @@ exports.handler = async function(event, context, callback) {
     return handleOrderCompleted(data);
   };
 
-  return error();
+  return error({}, 202);
 }
 
 const handleOrderCompleted = function(data) {
