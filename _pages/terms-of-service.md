@@ -160,7 +160,7 @@ title: Terms of Service
 <br /><br />
 <div>SECTION 20 - CONTACT INFORMATION</div>
 <br />
-<div>If you have any questions about this Privacy Policy, please contact us via email at <a href="mailto:info@lifeflowercare.com">info@lifeflowercare.com</a>	or by phone at <a href="tel:3105544277">(310) 554-4277</a></div>
+<div>If you have any questions about this Privacy Policy, please contact us via email at <a href="mailto:wholesale@lifeflowercare.com">wholesale@lifeflowercare.com</a>	or by phone at <a href="tel:3105544277">(310) 554-4277</a></div>
 </div>
 
 </div>
