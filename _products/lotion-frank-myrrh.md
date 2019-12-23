@@ -20,9 +20,9 @@ new: true
 is_crystal: false
 stackable: true
 
-sitemap: true
-orderable: true
-hidden: false
+sitemap: false
+orderable: false
+hidden: true
 
 out_of_stock_message:
 
