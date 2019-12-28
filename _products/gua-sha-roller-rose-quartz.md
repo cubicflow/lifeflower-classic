@@ -9,10 +9,10 @@ image-url: "/assets/img/products/gua-sha-roller-rose-quartz.jpg"
 image-large-url: "/assets/img/products/large/gua-sha-roller-rose-quartz.jpg"
 price: 30
 price_wholesale: 15
-price_case: 60
+price_case: 90
 weight: 50
-weight_case: 200
-case-count: 4
+weight_case: 300
+case-count: 6
 
 display_order: 9998
 cell_layout:
