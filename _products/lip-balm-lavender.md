@@ -26,11 +26,11 @@ hidden: false
 
 out_of_stock_message:
 
-long_description: The Frank x Myrrh Relief Lotion is a natural, nourishing blend of plant fats and grounding essential oils formulated to hydrate and stimulate vital skin function. This unique lotion provides maximum absorption and hydration on a cellular level while remaining light and non-greasy on the skin. Paired with 200mg of revitalizing hemp-derived CBD.
+long_description: The Lavender Lip Balm was formulated as a relief for dry, chapped lips. This organic balm is made with healing plant oils that soothe and nourish while repairing broken skin cells - relieving pain and dryness instantaneously. Perfect for your before bedtime skin routine as Lavender essential oil relaxes the mind and calms the nervous system to prepare for a peaceful, deep sleep.
 
 ingredients: Organic Sunflower Oil, Beeswax, Shea Butter, Organic Hemp-Derived Cannabidiol (CBD), Lavender Essential Oil, Vitamin E
 
-directions: Apply as needed to naturally nourish and hydrate chapped lips.
+directions: Apply as needed to dry, chapped lips. Do not ingest.
 
 product-notes: Life Flower products are made in small batches with all-natural and boutique ingredients. Orders are processed and ship within 14 business days. Please allow additional time for&nbsp;delivery.
 
