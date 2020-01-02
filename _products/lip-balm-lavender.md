@@ -7,12 +7,12 @@ size: "5.5ml"
 strength: "25mg"
 image-url: "/assets/img/products/lavender-lip-balm.jpg"
 image-large-url: "/assets/img/products/large/lavender-lip-balm.jpg"
-price: 48
-price_wholesale: 24
-price_case: 96
-weight: 292
-weight_case: 1168
-case-count: 4
+price: 14
+price_wholesale: 7
+price_case: 84
+weight: 25
+weight_case: 300
+case-count: 12
 
 display_order: -20
 cell_layout:
