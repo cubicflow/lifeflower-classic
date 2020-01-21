@@ -14,7 +14,7 @@ weight: 25
 weight_case: 300
 case-count: 12
 
-display_order: -19
+display_order: -21
 cell_layout:
 new: true
 is_crystal: false
