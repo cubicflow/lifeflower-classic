@@ -9,10 +9,10 @@ image-url: "/assets/img/products/lavender-lip-balm.jpg"
 image-large-url: "/assets/img/products/large/lavender-lip-balm.jpg"
 price: 14
 price_wholesale: 7
-price_case: 84
+price_case: 42
 weight: 25
-weight_case: 300
-case-count: 12
+weight_case: 150
+case-count: 6
 
 display_order: -21
 cell_layout:
