@@ -1,8 +1,8 @@
 ---
-title: "Flowerchild Bath Bomb"
+title: "Flower Child Bath Bomb"
 product-category: bath
 sitemap: true
-name: "Flowerchild Bath Bomb"
+name: "Flower Child Bath Bomb"
 description: "50mg Hemp-Derived CBD"
 size: "6oz"
 strength: "50mg"
