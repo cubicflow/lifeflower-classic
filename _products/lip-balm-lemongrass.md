@@ -21,7 +21,7 @@ is_crystal: false
 stackable: true
 
 sitemap: true
-orderable: true
+orderable: false
 hidden: false
 
 out_of_stock_message:
