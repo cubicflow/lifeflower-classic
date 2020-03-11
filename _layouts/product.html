@@ -106,6 +106,14 @@ layout: default
       </div>
       {% endif %}
 
+      {% if page.lab-tested %}
+        <div class="product-detail__notes">
+          <span>Lab Tested</span>
+          <p><a href="page.lab-tested-url" target="_blank" rel="noopener noreferrer">See lab test results (external link)</a></p>
+        </div>
+      {% else %}
+      {% endif %}
+
     </div>
 
   </section>

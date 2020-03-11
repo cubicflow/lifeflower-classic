@@ -23,6 +23,9 @@ new: false
 is_crystal: false
 stackable: true
 
+lab-tested: true
+lab-tested-url: "https://lims.tagleaf.com/coas/D2pSwO1PJo4uJZY5TcIR9z1jPMV5yds797yd7AyGLj6Rr1jR1w"
+
 long_description: All-organic ingredients sourced directly from nature to ease aches, pains, burns, and scars. Coconut oil and olive oil work by nourishing the skin while the anti-inflammatory properties of beeswax, shea butter, lavender and eucalyptus essential oils relieve the muscles.
 
 ingredients: Organic Coconut Oil, Organic Olive Oil, Organic Beeswax, Unrefined Fair-Trade Cocoa & Shea Butters, Arnica-Infused Sunflower Oil, Organic Sunflower Lecithin, Organic Hemp-Derived Cannabidiol Isolate, Lavender, Eucalyptus & Copaiba Essential Oils
