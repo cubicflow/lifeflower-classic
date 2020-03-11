@@ -23,6 +23,9 @@ new: false
 is_crystal: false
 stackable: true
 
+lab-tested: true
+lab-tested-url: "https://lims.tagleaf.com/coas/Rivm2jXVGCvxnig2EF7jPJyfQ3pWWbjCgM1uA5dTdRNmi6cP6X"
+
 long_description: Beat your next headache the natural way, pill-free with a blend of nature's many solutions. Infused Sweet Almond oil is paired with healing essential oils that have been proven over and over to kick headaches and migraines- Infused with corresponding organic herbs to provide extra minerals, nutrients and healing benefits. Includes a cleansed and charged quartz crystal chip to amplify it all.
 
 ingredients: Organic Safflower Oil, Organic Herbs, Therapeutic Grade Essential Oils of Peppermint, Lavender, Frankincense & Eucalyptus, Elderberry Extract, Organic Hemp-Derived Cannabidiol Isolate, Cleansed & Charged Quartz

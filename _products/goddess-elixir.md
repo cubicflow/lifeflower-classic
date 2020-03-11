@@ -23,6 +23,9 @@ new: false
 is_crystal: false
 stackable: true
 
+lab-tested: true
+lab-tested-url: "https://lims.tagleaf.com/coas/iSfUbo4f2BDLm6bnuIzydg5Q8plfiFGZqIDG4wbB6lXisOStLH"
+
 long_description: Essential oil blend formulated to fight menstrual cramps and balance intense feminine energies. Handcrafted in small batches with love and care.
 
 ingredients: Organic Safflower Oil, Fennel Oil, Organic Hemp-Derived Cannabidiol Isolate, Therapeutic Grade Essential Oils of Rose, Lavender, Geranium & Clary Sage, Organic Sunflower Lecithin, Elderberry Extract, Organic Rose, Lavender, Calendula & Copaiba, Cleansed & Charged Rose Quartz
