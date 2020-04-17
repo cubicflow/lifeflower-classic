@@ -14,7 +14,7 @@ weight: 292
 weight_case: 1168
 case-count: 4
 
-display_order: -18
+display_order: -23
 cell_layout:
 new: true
 is_crystal: false

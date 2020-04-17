@@ -19,7 +19,7 @@ new: false
 background-color: "#DDE2D9"
 featured_bundle: true
 
-long_description: This set includes all of our best-selling bath bombs. The Crystal Visions, Aphrodite, Flower Child, Sativa and Limonene. A bomb for every person or mood. The perfect ‘value pack’ for gifting to friends or to keep as a secret self-care stash for yourself.
+long_description: This set includes all of our best-selling bath bombs. The Crystal Visions, Aphrodite, Flower Child, Hypnosis and Limonene. A bomb for every person or mood. The perfect ‘value pack’ for gifting to friends or to keep as a secret self-care stash for yourself.
 
 ingredients: blank
 
