@@ -14,7 +14,7 @@ weight: 292
 weight_case: 1168
 case-count: 4
 
-display_order: -17
+display_order: -22
 cell_layout:
 new: true
 is_crystal: false
@@ -26,7 +26,7 @@ hidden: false
 
 out_of_stock_message:
 
-long_description: The Vanilla x Oatmeal Relief Lotion is a lightweight, synergistic blend of plant oils and botanical fats formulated to nourish and repair vital skin function on a cellular level. Infused with a light, neutral essential oil blend and paired with 500mg of revitalizing hemp-derived CBD to offer 24 hours of healing cellular hydration, restoration and support.
+long_description: The Vanilla x Oatmeal Relief Lotion is a lightweight, synergistic blend of plant oils and botanical fats formulated to nourish and repair vital skin function on a cellular level. Infused with a light, neutral essential oil blend and paired with 200mg of revitalizing hemp-derived CBD to offer 24 hours of healing cellular hydration, restoration and support.
 
 ingredients: Distilled Water, Oatmeal Infused Water, Coconut Oil, Emulsifying Wax NF, Grape Seed Oil, Avocado Oil, Abyssinian Oil, Sweet Almond Oil, Fermented Radish Root, Vanilla Bean Oil, Coconut Fruit Extract, Non GMO Citric Acid Rosemary Leaf Extract, Organic Hemp-Derived Cannabidiol
 

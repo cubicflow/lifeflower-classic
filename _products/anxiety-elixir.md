@@ -23,6 +23,9 @@ new: false
 is_crystal: false
 stackable: true
 
+lab-tested: true
+lab-tested-url: "https://lims.tagleaf.com/coas/XfgjNCuJlzsRbISRnbzQM2rdNPQtEM4Rdf7BjVB4dgel4OIHUt"
+
 long_description: Have you ever gone to start a busy day only to be stopped in your tracks by overthinking, paranoia or a nervous mind? We have the perfect all natural solution to those pesky shakes and jitters! Relieve anxiety the way nature intended with this amazing smelling medicated essential oil roll-on. Handcrafted with a soothing, infused blend of essential oils, corresponding organic herbs as well as a quartz crystal chip to amplify it all. Handcrafted in small batches with love and care.
 
 ingredients: Organic Safflower Oil, Therapeutic-Grade Lavender, Ylang Ylang, Clary Sage & Frankincense Essential Oils, Kava Kava Extract, Elderberry Extract, Organic Hemp-Derived Cannabidiol Isolate, Organic Sage, Frankincense & Lavender, Cleansed & Charged Quartz

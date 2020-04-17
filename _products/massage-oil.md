@@ -27,6 +27,10 @@ custom_fields:
     options: "Glass Vial|Glass Pump"
     required: true
 
+
+lab-tested: true
+lab-tested-url: "https://lims.tagleaf.com/coas/e2wA8AD47516nEpq7hyYDvV9ciLDKUSfg8eq4x5OUveDdzm18i"
+
 long_description: Made with all natural almond oil and coconut oil, this massage oil is scented with all natural aphrodisiacs to soothe and seduce the mind and spirit. This oil is perfect to use in both the bath and afterwards as a massage oil / moisturizer. Loaded with Vitamin E and all organic plant extracts to ensure complete relaxation and relief. Infused with jasmine buds, rose buds, lavender sprigs and chamomile buds. Includes a charged rose quartz.
 
 ingredients: Organic Safflower Oil, Organic Arnica-Infused Sunflower Oil, Elderberry Extract, Organic Roses, Jasmine and Lavender, Aphrodisiacal Blend of Lavender, Ylang Ylang, Orange, Patchouli & Copaiba Essential Oils, Organic Sunflower Lecithin, Cleansed & Charged Rose Quartz
