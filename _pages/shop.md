@@ -1,7 +1,7 @@
 ---
 permalink: /shop/
 layout: products
-title: Shop Products
+title: Shop Wholesale
 ---
 
 {% assign products = site.products | sort: 'display_order' %}
@@ -32,17 +32,17 @@ title: Shop Products
 
         <div class="product__description">
           <p>{{product.description}}</p>
-          <p class="product__price">${{product.price}} USD</p>
+          <p class="product__price">${{product.price_case}} USD (Case of {{product.case-count}})</p>
         </div>
 
         {% if product.orderable == true %}
         <a class="button__buy snipcart-add-item"
         data-item-id="{{product.name | slugify}}"
-        data-item-name="{{product.name}}"
-        data-item-price="{{product.price}}"
+        data-item-name="{{product.name}} (Case of {{product.case-count}})"
+        data-item-price="{{product.price_case}}"
         data-item-price-wholesale="{{product.price_wholesale}}"
         data-item-url="{{product.url}}"
-        data-item-weight="{{product.weight}}"
+        data-item-weight="{{product.weight_case}}"
         data-item-description="{{product.description}}"
         data-item-shipable="true"
         data-item-stackable="{{product.stackable}}"

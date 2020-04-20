@@ -31,7 +31,7 @@ title: Ordering and Shipping Info
 
 <p>All Life Flower Care products are Final Sale, therefore, we can not accept returns, exchanges or refunds.</p>
 
-<p>We take customer satisfaction into great consideration and every product is inspected before leaving our warehouse. If you believe that you have received a damaged product, the wrong product or have missing items please contact info@lifeflowercare.com within 72 hours of receiving your order with your full name, order number, shipping address and email.</p>
+<p>We take customer satisfaction into great consideration and every product is inspected before leaving our warehouse. If you believe that you have received a damaged product, the wrong product or have missing items please contact wholesale@lifeflowercare.com within 72 hours of receiving your order with your full name, order number, shipping address and email.</p>
 
 <p>These products have not been evaluated by the FDA. We are committed to staying compliant with FDA regulations and as such, because these products have not been evaluated by the FDA, we make no claims as to any extra benefits for products containing CBD (Cannabidiol). If you decide to purchase these products, you are drawing your own opinions as to any additional benefits or use these products may provide.</p>
 
