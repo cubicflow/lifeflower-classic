@@ -2,6 +2,8 @@
 permalink: /kitchen-sink/
 layout: page
 title: Kitchen Sink
+sitemap: false
+noindex: true
 ---
 <p class="lead">Everything but.</p>
 
