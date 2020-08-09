@@ -4,7 +4,7 @@ product-category: "topicals"
 sitemap: true
 name: "Unify Massage Oil"
 description: "500mg Hemp-Derived CBD"
-size: "3.2oz"
+size: "4.0oz"
 strength: "500mg"
 image-url: "/assets/img/products/gypsy-oil-pump.jpg"
 image-large-url: "/assets/img/products/large/gypsy-oil-pump.jpg"
