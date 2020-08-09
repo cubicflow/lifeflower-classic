@@ -29,7 +29,7 @@ main {
   margin-bottom: 136px;
   margin-top: 0px;
   position: relative;
-  opacity: 1.0; // was 0.0, changing to 1.0 to debug fade issue since migrating codebase
+  opacity: 0.0; // was 0.0, changing to 1.0 to debug fade issue since migrating codebase
 
   &__appear {
     opacity: 1.0;
