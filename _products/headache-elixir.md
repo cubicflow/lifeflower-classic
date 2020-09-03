@@ -21,6 +21,12 @@ orderable: true
 hidden: false
 new: false
 is_crystal: false
+length: 1.905
+length_case:
+height: 9.525
+height_case:
+width: 2.54
+width_case:
 stackable: true
 
 lab-tested: true

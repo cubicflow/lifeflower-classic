@@ -11,6 +11,9 @@ image-large-url: "/assets/img/bundles/large/bundle-for-him.jpg"
 price: 75
 price_wholesale: 75
 weight: 575
+length:
+height:
+width:
 display_order: 7
 cell_layout:
 orderable: false

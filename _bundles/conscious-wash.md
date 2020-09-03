@@ -11,6 +11,9 @@ image-large-url: "/assets/img/bundles/large/bundle-conscious-wash.jpg"
 price: 65
 price_wholesale: 65
 weight: 870
+length:
+height:
+width:
 display_order: 3
 cell_layout:
 orderable: true

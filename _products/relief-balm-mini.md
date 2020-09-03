@@ -13,6 +13,12 @@ price_wholesale: 12
 price_case: 78
 weight: 80
 weight_case: 480
+length: 4.445
+length_case:
+height: 4.445
+height_case:
+width: 4.445
+width_case:
 case-count: 6
 
 display_order: -12

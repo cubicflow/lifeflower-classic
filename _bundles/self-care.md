@@ -11,6 +11,9 @@ image-large-url: "/assets/img/bundles/large/bundle-self-care.jpg"
 price: 145
 price_wholesale: 145
 weight: 1130
+length:
+height:
+width:
 display_order: 2
 cell_layout:
 orderable: true

@@ -13,6 +13,12 @@ price_case:
 
 weight:
 weight_case:
+length:
+length_case:
+height:
+height_case:
+width:
+width_case:
 case-count:
 
 display_order: -7

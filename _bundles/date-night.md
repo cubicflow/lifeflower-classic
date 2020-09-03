@@ -11,6 +11,9 @@ image-large-url: "/assets/img/bundles/large/bundle-valentines-2.jpg"
 price: 50
 price_wholesale: 50
 weight: 395
+length:
+height:
+width:
 display_order: 5
 cell_layout:
 orderable: true

@@ -13,6 +13,12 @@ price_wholesale: 30
 price_case: 120
 weight: 100
 weight_case: 400
+length:
+length_case:
+height:
+height_case:
+width:
+width_case:
 case-count: 4
 
 display_order: -4

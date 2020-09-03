@@ -11,6 +11,9 @@ image-large-url: "/assets/img/bundles/large/bundle-roller.jpg"
 price: 75
 price_wholesale: 75
 weight: 270
+length:
+height:
+width:
 display_order: 4
 cell_layout:
 orderable: true
