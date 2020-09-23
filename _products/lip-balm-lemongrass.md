@@ -5,8 +5,8 @@ name: "Lemongrass Lip Balm"
 description: "25mg Hemp-Derived CBD"
 size: "5.5ml"
 strength: "25mg"
-image-url: "/assets/img/products/lavender-lip-balm.jpg"
-image-large-url: "/assets/img/products/large/lavender-lip-balm.jpg"
+image-url: "/assets/img/products/lemongrass-lip-balm.jpg"
+image-large-url: "/assets/img/products/large/lemongrass-lip-balm.jpg"
 price: 14
 price_wholesale: 7
 price_case: 42
