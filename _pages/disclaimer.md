@@ -5,7 +5,7 @@ title: Disclaimer
 ---
 
 
-<div class="disclaimer__body">
+<div class="disclaimer__body editable">
   <a href="../" style="font-size:16px;">Back to Site</a>
   <br><br><br>
   <div class=editable>

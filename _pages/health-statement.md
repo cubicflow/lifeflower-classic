@@ -7,7 +7,7 @@ noindex: true
 ---
 
 
-<div class="disclaimer__body">
+<div class="disclaimer__body editable">
 
 <a href="../" style="font-size:16px;">Back to Site</a>
   <div class="text-dark editable">
