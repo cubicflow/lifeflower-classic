@@ -4,6 +4,7 @@ layout: page-aux
 title: Find Our Products In-Store
 ---
 
+<div class="editable">
 
 <div class="text-align-center">
 
@@ -309,3 +310,5 @@ Lopez Island, WA<br><br>
 </div>
 
 ---
+
+</div>
