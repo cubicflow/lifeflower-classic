@@ -6,13 +6,13 @@ title: Disclaimer
 
 
 <div class="disclaimer__body">
-
-<a href="../" style="font-size:16px;">Back to Site</a>
-<br><br><br>
-DISCLAIMER
-<br><br>
-Life Flower Care does not sell or distribute any products that are in violation of the United States Controlled Substances Act (US CSA). The company does sell, and distribute hemp-based products. Hemp Cannabidiol (CBD) is a natural constituent of hemp oil.
-
+  <a href="../" style="font-size:16px;">Back to Site</a>
+  <br><br><br>
+  <div class=editable>
+    DISCLAIMER
+    <br><br>
+    Life Flower Care does not sell or distribute any products that are in violation of the United States Controlled Substances Act (US CSA). The company does sell, and distribute hemp-based products. Hemp Cannabidiol (CBD) is a natural constituent of hemp oil.
+  </div>
 </div>
 
 ---

@@ -5,7 +5,7 @@ title: Terms of Service
 ---
 
 
-<div class="disclaimer__body" style="color: #333333;">
+<div class="disclaimer__body text-gray-dark editable">
 
 <div>
 <div>OVERVIEW</div>

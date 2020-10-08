@@ -24,7 +24,7 @@ title: Ordering and Shipping Info
 
 ---
 
-<div class="disclaimer__body">
+<div class="disclaimer__body editable">
 
 <b>Return Policy</b>
 <br><br>
