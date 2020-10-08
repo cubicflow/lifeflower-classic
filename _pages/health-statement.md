@@ -10,7 +10,7 @@ noindex: true
 <div class="disclaimer__body">
 
 <a href="../" style="font-size:16px;">Back to Site</a>
-  <div class="text-dark">
+  <div class="text-dark editable">
   <br><br><br>
   We know it’s been a heavy couple of days for the collective and wanted to reach out and let you know we’re still here, committed to packing your orders and highlighting the importance of self care in times like these. 
   <br><br>
