@@ -5,7 +5,7 @@ title: Privacy Policy
 ---
 
 
-<div class="disclaimer__body" style="color: #333333;">
+<div class="disclaimer__body text-gray-dark editable">
 
   <p>Your privacy is critically important to us. Life FLower Care is located at:<br/>
     <address>
