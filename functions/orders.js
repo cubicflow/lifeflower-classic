@@ -103,12 +103,6 @@ const transformDataForShipping = function(data){
         weight: (item.weight) ? {
           value: item.weight,
           units: 'grams'
-        } : null,
-        dimensions: (item.dimensions) ? {
-          length: item.length,
-          width: item.width,
-          height: item.height,
-          units: 'centimeters'
         } : null
       }
     })
