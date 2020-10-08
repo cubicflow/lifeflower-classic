@@ -26,9 +26,15 @@ layout: default
     data-item-price-wholesale="{{page.price_wholesale}}"
     data-item-url="{{page.url}}"
     data-item-weight="{{page.weight}}"
-    data-item-length="{{page.length}}"
-    data-item-height="{{page.height}}"
-    data-item-width="{{page.width}}"
+    {% if page.length != null %}
+      data-item-length="{{page.length}}"
+    {% endif %}
+    {% if page.height != null %}
+      data-item-height="{{page.height}}"
+    {% endif %}
+    {% if page.width != null %}
+      data-item-width="{{page.width}}"
+    {% endif %}
     data-item-description="{{page.description}}"
     data-item-shipable="true"
     data-item-stackable="{{page.stackable}}"
