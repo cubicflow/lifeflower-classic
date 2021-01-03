@@ -8,9 +8,7 @@ title: Welcome
 
   <div class="masthead">
 
-    <a href="/"><img src="/assets/img/logo.svg">
-
-    </a>
+    <img src="/assets/img/logo.svg">
 
   </div>
 
