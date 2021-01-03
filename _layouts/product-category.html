@@ -4,6 +4,10 @@ layout: default
 
 <!-- {% include shop-categories.html %} -->
 
+<div class="container text-align-center">
+  <h1>{{page.name | capitalize}}</h1>
+</div>
+
 <main class="products">
 
   {% assign products = site.products | sort: 'display_order' %}
