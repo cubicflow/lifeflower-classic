@@ -15,7 +15,7 @@ layout: default
 
   {% if category-slug == product-category-slug %}
 
-  <div class="product {% if product.cell_layout == "small" %}product--small{% endif %}">
+  <div class="product">
 
     <div class="product__container">
 
@@ -27,7 +27,7 @@ layout: default
       <div class="product__new-spacer"></div>
       {% endif %}
 
-      <a href="{{product.url}}">
+      <a class="display-inline-block" href="{{product.url}}">
         <div class="product__content">
 
           <img class="cf-responsive" src="{{product.image-url}}">

@@ -9,7 +9,7 @@ title: Shop Wholesale
 {% if product.hidden == false %}
 {% if product.is_crystal == false %}
 
-<div class="product {% if product.cell_layout == "small" %}product--small{% endif %}">
+<div class="product">
 
   <div class="product__container">
 
@@ -21,7 +21,7 @@ title: Shop Wholesale
     <div class="product__new-spacer"></div>
     {% endif %}
 
-    <a href="{{product.url}}">
+    <a class="display-inline-block" href="{{product.url}}">
       <div class="product__content">
 
         <img class="cf-responsive" src="{{product.image-url}}">
