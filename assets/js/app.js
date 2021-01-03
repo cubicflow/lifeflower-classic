@@ -252,92 +252,22 @@ var responsiveImages = cf.imgSwap(options);
 
 /// product appear
 
-cf.appearCells = function(selector){
+cf.makeAppear = function(selector){
 
-  let cells = [...document.querySelectorAll(selector)];
-  for (let cell of cells){
-    cell.classList.add('product__appear')
+  let itemsToAppear = [...document.querySelectorAll(selector)];
+  for (let item of itemsToAppear){
+    item.classList.add('product__appear')
   }
 
 }
- 
-
-
-// /// row equalizer
-
-// cf.equalizeRowCells = function(selector){
-
-//   let rows = detectRows()
-
-//   console.log(rows)
-
-//   for (let row of rows){
-
-//     const tallestCellHeightInRow = row.reduce((lastTallest, cell) => {
-//       if (cell.clientHeight > lastTallest){
-//         return cell.clientHeight;
-//       } else {
-//         return lastTallest
-//       }
-//     }, 0)
-
-//     const cellHeight = (tallestCellHeightInRow < 290) ? 290 : tallestCellHeightInRow;
-//     for (let cell of row){
-//       cell.style.height = tallestCellHeightInRow + "px"
-//       cell.classList.add('product__appear')
-//     }
-
-//   }
-
-//   function detectRows(){
-
-//     let cells = [...document.querySelectorAll(selector)];
-//     let rowsToReturn = [];
-
-//     const sortedCells = cells.sort((a, b) => {
-//       return getPosition(a).y - getPosition(b).y;
-//     });
-
-//     let lastCellTopOffset = null;
-//     for (let cell of sortedCells){
-
-//       const cellTopOffset = getPosition(cell).y
-//       if (cellTopOffset !== lastCellTopOffset){
-//         rowsToReturn.push([cell])
-//         lastCellTopOffset = cellTopOffset
-//       } else {
-//         rowsToReturn[rowsToReturn.length - 1].push(cell)
-//       }
-
-//     }
-
-//     return rowsToReturn;
-
-//   }
-
-//   function getPosition(element) {
-//       var xPosition = 0;
-//       var yPosition = 0;
-
-//       while(element) {
-//           xPosition += (element.offsetLeft - element.scrollLeft + element.clientLeft);
-//           yPosition += (element.offsetTop - element.scrollTop + element.clientTop);
-//           element = element.offsetParent;
-//       }
-
-//       return { x: xPosition, y: yPosition };
-//   }
-
-// }
-
 
 window.onload = function(){
-  cf.appearCells('.product');
+  cf.makeAppear('.product');
 };
 
 
 window.addEventListener('resize', () => {
-  cf.appearCells('.product');
+  cf.makeAppear('.product');
 })
 
 
