@@ -12,7 +12,7 @@ noindex: true
 <a href="../" style="font-size:16px;">Back to Site</a>
   <div class="text-dark editable">
     <br><br><br>
-    We know it’s been a heavy couple of days for the collective and wanted to reach out and let you know we’re still here, committed to packing your orders and highlighting the importance of self care in times like these. 
+    We're committed to packing your orders and highlighting the importance of self care during these unprecedented times. 
     <br><br>
     For now, our processing times remain unimpacted. We are heightening our cleaning practices, both at our homes and at our warehouse, which we have exclusive use of and do not share with other any other business. 
     ⁣<br><br>
