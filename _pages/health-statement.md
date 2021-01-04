@@ -18,7 +18,7 @@ noindex: true
     ⁣<br><br>
     Now more than ever, it’s crucial to take care of yourselves and your loved ones, especially if they’re elderly or immunocompromised. ⁣
     ⁣<br><br>
-    In the days to come we will be posting health tips to share some ideas on how to take care of your vessel on our <a href="https://instagram.com/lifeflowercare/">instagram</a> page. Featuring fun activities you can do that boost the immune system and ground heightened emotions during this time of chaos. 
+    We're posting health tips on our <a href="https://instagram.com/lifeflowercare/">instagram</a> page to share some ideas on how to take care of your vessel, featuring fun activities you can do that boost the immune system and ground heightened emotions. 
   </div>
 
 </div>
