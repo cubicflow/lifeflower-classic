@@ -1,13 +1,13 @@
 ---
-title: "“Roll-on Elixirs” Set"
+title: Everyday Ailment Elixir Collection
 product-category: gift-bundle
 sitemap: true
-name: "“Roll-on Elixirs” Set"
-description: "blank"
-size: "blank"
-strength: "blank"
-image-url: "/assets/img/bundles/bundle-roller.jpg"
-image-large-url: "/assets/img/bundles/large/bundle-roller.jpg"
+name: Everyday Ailment Elixir Collection
+description: blank
+size: blank
+strength: blank
+image-url: /assets/img/bundles/bundle-roller.jpg
+image-large-url: /assets/img/bundles/large/bundle-roller.jpg
 price: 75
 price_wholesale: 75
 weight: 270
@@ -16,16 +16,19 @@ cell_layout:
 orderable: true
 hidden: false
 new: false
-background-color: "#DDE2D9"
+background-color: '#DDE2D9'
 featured_bundle: false
-
-long_description: This set includes three of our powerful essential oil elixirs - each has a unique essential oil blend geared to fight insomnia, anxiety and headaches. Infused with pure hemp-derived CBD, sweet almond oil, therapeutic grade essential oils, organic corresponding herbs and crystals.
-
+long_description: >-
+  Three different, powerful essential oil blends geared towards three of the
+  most common everyday ailments: headaches, anxiety and insomnia. Each elixir is
+  handcrafted with therapeutic grade essential oils, hemp-derived CBD, organic
+  herbs and a cleansed and charged crystal mined sustainably from the earth.
+  Perfect for on the go, easy, discreet relief.
 ingredients: blank
-
 history: blank
-
 healing-properties: blank
-
-product-notes: Life Flower products are made in small batches with all-natural and boutique ingredients. Orders are processed and ship within 14 business days. Please allow additional time for&nbsp;delivery.
+product-notes: >-
+  Life Flower products are made in small batches with all-natural and boutique
+  ingredients. Orders are processed and ship within 14 business days. Please
+  allow additional time for&nbsp;delivery.
 ---
