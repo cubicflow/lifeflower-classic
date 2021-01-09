@@ -24,7 +24,6 @@ long_description: >-
   handcrafted with therapeutic grade essential oils, hemp-derived CBD, organic
   herbs and a cleansed and charged crystal mined sustainably from the earth.
   Perfect for on the go, easy, discreet relief.
-                                                                                   ✺
 ingredients: blank
 history: blank
 healing-properties: blank
