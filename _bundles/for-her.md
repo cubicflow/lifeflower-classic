@@ -16,6 +16,7 @@ cell_layout:
 orderable: false
 hidden: true
 new: false
+stackable: true
 background-color: "#DDE2D9"
 featured_bundle: false
 
