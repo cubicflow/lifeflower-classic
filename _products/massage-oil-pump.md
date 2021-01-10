@@ -22,17 +22,16 @@ new: false
 is_crystal: false
 stackable: true
 long_description: >-
-  Made with all natural almond oil and coconut oil, this massage oil is scented
-  with all natural aphrodisiacs to soothe and seduce the mind and spirit. This
-  oil is perfect to use in both the bath and afterwards as a massage oil /
-  moisturizer. Loaded with Vitamin E and all organic plant extracts to ensure
-  complete relaxation and relief. Infused with jasmine buds, rose buds, lavender
-  sprigs and chamomile buds. Includes a charged rose quartz.
+  Unify Massage Oil is formulated thoughtfully with organic, nourishing
+  safflower oil and infused with organic herbs, aphrodisiacal essential oils and
+  a cleansed & charged rose quartz. Intended for both self love and couple
+  massages, this golden oil stimulates the sex drive while unifying and
+  strengthening the connection with self and others.
 ingredients: >-
-  Organic Safflower Oil, Organic Arnica-Infused Sunflower Oil, Organic Roses,
-  Jasmine and Lavender, Aphrodisiacal Blend of Lavender, Ylang Ylang, Orange,
-  Patchouli & Copaiba Essential Oils, Organic Sunflower Lecithin, Cleansed &
-  Charged Rose Quartz
+  Organic Safflower Oil, Organic Arnica-Infused Oil, Organic Roses, Jasmine and
+  Lavender, Aphrodisiacal Blend of Lavender, Ylang Ylang, Orange, Patchouli &
+  Copaiba Essential Oils, Organic Sunflower Lecithin, Cleansed & Charged Rose
+  Quartz
 product-notes: >-
   Life Flower products are made in small batches with all-natural and boutique
   ingredients. Orders are processed and ship within 14 business days. Please
