@@ -23,7 +23,7 @@ custom_fields:
     required: true
 
 long_description: >-
-  One tree planted for each hoody sold through <a href="https://nationalforests.org" rel="noopener noreferrer">Nationalforests.org</a>. Organic U.S. cotton. Runs small (order a size up if needed).
+  One tree planted for each hoody sold through <a href="https://nationalforests.org" rel="noopener noreferrer" target="_blank">Nationalforests.org</a>. Organic U.S. cotton. Runs small (order a size up if needed).
   <br><br>
   Color: Blue, green, and black on natural cream.
 
